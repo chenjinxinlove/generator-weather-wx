@@ -11,7 +11,7 @@ describe('generator-weather-wx:app', () => {
 
   it('creates files', () => {
     assert.file([
-      'dummyfile.txt'
+      'gulpfile.js', 'package.json', 'src/app.js', 'src/app.json', 'src/app.scss', 'src/pages/index.wxml'
     ]);
   });
 });
